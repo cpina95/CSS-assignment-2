@@ -33,32 +33,47 @@ body {
   background: #379CB2;
 }
 
-h2, section > p {
-  text-align: center;}
+div > p {
+  margin-left: 40px;
+}
+
+h2{
+  margin-left: 40px;
+}
 
 img {
   display: block;
-  margin: auto;}
+  margin: 40px;}
 
 section {
-padding: 10px;}
+  padding: 20px;
+  float: left;
+  width: 100%;
+  margin: auto;
+}
 
 article {
-  background: #fff;
-  width: 600px;
+  width: 500px;
   padding: 20px 40px;
   box-sizing: border-box;
-  margin: 50px auto;
+  margin: 50px;
+  float: right;
+}
+
+div {
+  float: left;
 }
 
 footer {
   text-align: center;
   padding: 20px;
+  clear: both;
 }
 /* --- links and nav --- */
 
 h1 {
   float: left;
+  margin-left: 30px;
 }
 nav {
   float: right;
@@ -73,7 +88,7 @@ nav ul {
 nav li {
   float: left;
   margin-left: 30px;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 a { color: #999; }
